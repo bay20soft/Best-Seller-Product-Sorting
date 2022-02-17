@@ -1,0 +1,27 @@
+{
+  "name": "bay20/bestsellersorting",
+  "description": "Magento 2 BestsellerSorting extension",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "authors": [
+    {
+      "name": "Wargis Mehta",
+      "email": "wargis@bay20.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+    "Bay20\\BestsellerSorting\\": ""
+    }
+  }
+}
